@@ -1,20 +1,30 @@
 <script>
+import { ref } from 'vue'
 export default {
-  data() {
+  setup () {
+    const name = ref('John')
+    const lastName = ref('Doe')
+    const age = ref(55)
     return {
-      name: 'John'
+      name ,
+      lastName,
+      age
     }
-  }
+  },
+  mounted() {
+    console.log(`The inital name is ${this.name}.`);
+    console.log(`The inital last name is ${this.lastName}.`);
+    console.log(`The inital age is ${this.age}.`);
+  },
 }
 </script>
 
 <template>
-  <p>{{ name }}, this is an example of a Vue component</p>
+  <p>My name is: {{ name }} {{ lastName }} and my age is {{ age }}</p>
 </template>
 
 <style scoped>
 p {
   font-weight: bold;
-  color: red;
 }
 </style>

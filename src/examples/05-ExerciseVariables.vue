@@ -7,5 +7,6 @@ export default {
 </script>
 
 <template>
+  <h1>Test</h1>
   <p>This is a sandbox, start creating your exercise!</p>
 </template>

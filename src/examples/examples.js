@@ -29,4 +29,6 @@ export const examples = {
   [28]: { component: () => import('./28-ExerciseApiCrudContacts.vue'), description: '28 - * Exercise: API: CRUD contacts' },
   [29]: { component: () => import('./29-PiniaCounter.vue'), description: '29 - Pinia: Counter' },
   [30]: { component: () => import('./30-ExercisePiniaContacts.vue'), description: '30 - * Exercise: Pinia: Contacts' },
+  [31]: { component: () => import('./31-Exercise-Post-it.vue'), description: 'X - * Exercise: Post-it' },
+  [32]: { component: () => import('./33-Exercise-String.vue'), description: 'X - * Exercise: String' }
 }
